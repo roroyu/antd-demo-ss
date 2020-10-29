@@ -2,6 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
-import List1 from "./List1";
+import NavList from "./NavList";
 ReactDOM.render(<App />, document.getElementById("root"));
-ReactDOM.render(<List1 />, document.getElementById("container"));
+ReactDOM.render(<NavList />, document.getElementById("navlist"));
